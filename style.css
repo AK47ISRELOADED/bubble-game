@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(108, 162, 255);
+}
+#whole{
+    height: 80%;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#top{
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(251, 225, 255);
+}
+.card{
+    display: flex;
+    color: rgb(23, 106, 250);
+    gap: 10px;
+}
+.box{
+    background-color: #fff;
+    padding: 0  5px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 800;
+}
+
+
+
+
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+
+#bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    height:60px;
+    width:60px;
+    background-color: rgb(48, 104, 235);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#bubble:hover{
+    background-color: rgb(3, 87, 213);
+}
